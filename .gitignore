@@ -8,7 +8,7 @@
 *.db-wal
 *.db-shm
 /data/
-krdict*/
+/krdict*/
 *.xml
 !testdata/*.xml
 

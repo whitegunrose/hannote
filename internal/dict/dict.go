@@ -14,6 +14,7 @@ type Entry struct {
 	Hanja         string // origin, stored as-is, e.g. "豫約 하다"
 	Pronunciation string // in Hangul; ː marks a long vowel
 	Senses        []Sense
+	Forms         []string // listed conjugated/contracted forms, e.g. 일어나, 일어나니
 }
 
 // Sense is one numbered meaning of an Entry.
