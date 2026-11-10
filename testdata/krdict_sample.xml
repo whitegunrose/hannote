@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE LexicalResource SYSTEM "https://krdict.korean.go.kr/dtd/DTD_LMF_REV_16.dtd">
+<LexicalResource dtdVersion="16">
+	<GlobalInformation>
+		<feat att="label" val="한국어기초사전 - 국립국어원 제공" />
+	</GlobalInformation>
+	<Lexicon>
+		<feat att="language" val="kor" />
+		<LexicalEntry att="id" val="71696">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="동사" />
+			<Lemma>
+				<feat att="writtenForm" val="일어나다" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="이러나다" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="일어나" />
+				<feat att="pronunciation" val="이러나" />
+			</WordForm>
+			<WordForm>
+				<feat att="type" val="활용" />
+				<feat att="writtenForm" val="일어나니" />
+				<feat att="pronunciation" val="이러나니" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="초급" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="누워 있다가 앉거나 앉아 있다가 서다." />
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="stand up; rise; sit up" />
+					<feat att="definition" val="To sit after lying down or stand after sitting." />
+				</Equivalent>
+			</Sense>
+			<Sense att="id" val="2">
+				<feat att="definition" val="잠에서 깨어나다." />
+				<Equivalent>
+					<feat att="language" val="일본어" />
+					<feat att="lemma" val="おきる【起きる】" />
+					<feat att="definition" val="目が覚める。" />
+				</Equivalent>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="get up" />
+					<feat att="definition" val="To &amp;quot;wake&amp;quot; up." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="14154">
+			<feat att="homonym_number" val="0" />
+			<feat att="lexicalUnit" val="단어" />
+			<feat att="partOfSpeech" val="동사" />
+			<feat att="origin" val="豫約 하다" />
+			<Lemma>
+				<feat att="writtenForm" val="예약하다" />
+			</Lemma>
+			<WordForm>
+				<feat att="type" val="발음" />
+				<feat att="pronunciation" val="예ː야카다" />
+			</WordForm>
+			<feat att="vocabularyLevel" val="없음" />
+			<Sense att="id" val="1">
+				<feat att="definition" val="자리나 방, 물건 등을 사용하기 위해 미리 약속하다." />
+				<Equivalent>
+					<feat att="language" val="프랑스어" />
+					<feat att="lemma" val="réserver (une chambre <ondol>)" />
+					<feat att="definition" val="Test of the unescaped angle brackets in the 2019 dump." />
+				</Equivalent>
+				<Equivalent>
+					<feat att="language" val="영어" />
+					<feat att="lemma" val="make a reservation; book" />
+					<feat att="definition" val="To arrange a place, room, object, etc., in advance for future use." />
+				</Equivalent>
+			</Sense>
+		</LexicalEntry>
+		<LexicalEntry att="id" val="37604">
+			<feat att="lexicalUnit" val="관용구" />
+			<Lemma>
+				<feat att="writtenForm" val="교편을 놓다" />
+			</Lemma>
+			<Sense att="id" val="1">
+				<feat att="definition" val="교사 일을 그만두다." />
+			</Sense>
+		</LexicalEntry>
+	</Lexicon>
+</LexicalResource>

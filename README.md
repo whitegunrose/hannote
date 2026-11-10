@@ -89,6 +89,12 @@ Follow the steps below to get Hannote running on your local machine.
   go version   # verify installation
   ```
 
+- **A C compiler** — Hannote uses cgo for SQLite (and later Kiwi). On macOS:
+
+  ```sh
+  xcode-select --install   # skip if already installed
+  ```
+
 - **Neovim 0.10+** — the first editor Hannote supports
 - A terminal with good Unicode support (developed on macOS with [Ghostty](https://ghostty.org))
 
