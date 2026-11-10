@@ -1,0 +1,22 @@
+# Build output
+/bin/
+/dist/
+
+# Dictionary data: large, CC BY-SA licensed, built locally by each user
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+/data/
+krdict*/
+*.xml
+!testdata/*.xml
+
+# Personal vocabulary and notes
+vocab.db
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
