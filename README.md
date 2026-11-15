@@ -146,7 +146,21 @@ The folder is `~/.local/share/hannote/` by default, or `$XDG_DATA_HOME/hannote/`
 
 ## Usage
 
-> Usage below describes the planned v1 behavior.
+### Looking words up from the shell
+
+Once the dictionary is imported, `hannote-lookup` prints every entry for a word:
+
+```sh
+hannote-lookup 일어나        # → 일어나다, via KRDICT's listed forms
+hannote-lookup -ko 방금      # every homograph, plus the Korean definitions
+hannote-lookup '눈이 높다'   # quote a phrase to look it up whole
+```
+
+For now it finds dictionary forms and the conjugated forms KRDICT lists; other conjugations (`통해야` → `통하다`) arrive with Kiwi. It exits 1 when a word has no entry.
+
+### In the editor
+
+> The editor usage below describes the planned v1 behavior.
 
 Notes are plain Markdown. Write the word, your gloss, and the sentence you saw it in, with the word in `[brackets]`:
 
@@ -173,7 +187,8 @@ When a word has no dictionary entry, Hannote offers to add a custom one. See [`d
 ## Roadmap
 
 - [x] Repo scaffold and design
-- [ ] Dictionary importer (`hannote-import`)
+- [x] Dictionary importer (`hannote-import`)
+- [x] `hannote-lookup` command (dictionary forms and KRDICT's listed forms)
 - [ ] Lookup with Kiwi word analysis
 - [ ] Language server with `K` lookup in Neovim
 - [ ] Word statuses, word notes, and the word pane
@@ -223,10 +238,12 @@ Contributions are welcome! If you have an idea that would make Hannote better, o
 ```
 cmd/
 ├── hannote-import/         # builds krdict.db from the KRDICT XML
+├── hannote-lookup/         # look words up from the shell
 ├── hannote-lsp/            # language server: hover = dictionary lookup
 └── hannote/                # custom TUI editor (later)
 internal/
 ├── dict/                   # dictionary types and krdict.db queries
+├── lookup/                 # word → entries; shared by hannote-lookup and the LSP
 ├── analyzer/               # Analyzer interface (Kiwi now, hand-written later)
 ├── vocab/                  # word statuses, word notes, custom entries
 ├── lsp/                    # LSP handlers
