@@ -20,3 +20,6 @@ vocab.db
 *.swp
 .idea/
 .vscode/
+
+# AI-DLC planning docs (kept locally and in the claude.ai Project)
+/aidlc-docs/
