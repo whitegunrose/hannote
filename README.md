@@ -162,13 +162,13 @@ For now it finds dictionary forms and the conjugated forms KRDICT lists; other c
 
 > The editor usage below describes the planned v1 behavior.
 
-Notes are plain Markdown. Write the word, your gloss, and the sentence you saw it in, with the word in `[brackets]`:
+Notes are plain Markdown with no special markup. Write the word, your gloss, and the sentence you saw it in:
 
 ```markdown
 ## 새 단어
 
 주로: usually
-> 먼저 한국인들은 어디서 연인을 만나냐면, [주로] 회사나 학교 이런 데서 연인을 만나.
+> 먼저 한국인들은 어디서 연인을 만나냐면, 주로 회사나 학교 이런 데서 연인을 만나.
 ```
 
 | Key             | Action                                              |

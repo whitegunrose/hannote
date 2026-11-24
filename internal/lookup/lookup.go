@@ -4,7 +4,7 @@
 // the word under the cursor (or on the command line) and print whatever it
 // returns. The steps are:
 //
-//  1. Clean the word: drop the punctuation and brackets around it.
+//  1. Clean the word: drop the punctuation around it.
 //  2. Look the word up as-is (headword, then KRDICT's listed forms).
 //  3. If an Analyzer is set, look up every dictionary form it suggests.
 //

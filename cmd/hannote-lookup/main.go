@@ -6,7 +6,7 @@
 //
 // Each argument is looked up separately; quote a phrase to look it up whole
 // ('눈이 높다'). Punctuation around a word is ignored, so a word copied out of
-// a note with its [brackets] still works.
+// a sentence with its comma or full stop still works.
 //
 // Exit status is 0 when every word was found, 1 when any word had no entry,
 // and 2 for usage errors or a missing dictionary.
